@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+background-color: rgba(63, 81, 181, 0.13);
+}
+* {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+}
+
+.backgroundimg {
+    background-image: url("https://img1.cgtrader.com/items/599075/f2b98dc2c7/arcade-machine-1-3d-model-low-poly-obj-3ds-fbx-c4d.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.padding {
+    padding: 15px;
+    margin: 0 auto;
+}
+.pickelempadding {
+    padding-top: 10%;
+}
+.btn {
+    background: #7C7C7C;
+    border-bottom: 5px inset rgba(0, 0, 0, .5);
+    border-left: 5px inset rgba(0, 0, 0, .5);
+    border-right: 5px inset rgba(255, 255, 255, .5);
+    border-top: 5px inset rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem;
+    max-width: 320px;
+    padding: .5rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn:hover
+{
+    background: #BCBCBC;
+}
+.btn:focus {
+    outline: none !important;
+}
+.fa {
+    font-size: 3rem;
+}
+
+.versus {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+}
+.versusbadge {
+
+    transform: translateY(-30%);
+}
+.labels-fontsize {
+    font-size: 2.5rem;
+}
+
+.controls {
+    font-size:1rem;
+    padding: 1.5em;
+}
+.controls p:first-child {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="css/gra.css">
+    <title>Gra</title>
+</head>
+<body>
+<audio id="audio" src="https://www.myinstants.com/media/sounds/mario_coin_sound.mp3" ></audio>
+<audio id="loosersound" src="https://www.myinstants.com/media/sounds/duke-nukem-shit-happens.mp3"></audio>
+<audio id="winnersound" src="https://www.myinstants.com/media/sounds/duke_nukem_hail_to_the_king_baby.mp3"></audio>
+<div class="container padding">
+    <h3 id="winnermsg" class="text-center padding welcometext">
+        <br>- Welcome to the game - <br>
+    </h3>
+    </div>
+    <div class="labels-fontsize text-center padding">
+        <span class="label label-default">Rock</span>
+        <span class="label label-info">Paper</span>
+        <span class="label label-danger">Scissors</span>
+    </div>
+
+<div id="js-newGameElement" class="container padding">
+    <div class="row text-center">
+        <button id="js-newGameButton" class="btn btn-default btn-lg btn-menu">
+            New game
+        </button>
+    </div>
+</div>
+<div class="backgroundimg">
+<div id="js-playerPickElement" class="container pickelempadding">
+    <div class="row text-center">
+        <button id="js-playerPick_rock" class="btn btn-picks">
+      <span class="badge">
+        <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+      </span>
+            Rock
+        </button>
+        <button id="js-playerPick_paper"  class="btn btn-picks">
+      <span class="badge">
+      <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+      </span>
+            Paper
+        </button>
+        <button id="js-playerPick_scissors"  class="btn btn-picks">
+      <span class="badge">
+      <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+      </span>
+            Scissors
+        </button>
+    </div>
+</div>
+</div>
+<div id="js-resultsTableElement" class="container padding">
+    <div class="row aligntext">
+        <div class="col-xs-5 text-center">
+      <span id="js-playerPoints" class="badge">
+      0
+      </span>
+            <span id="js-playerName">
+      Player Name
+      </span>
+        </div>
+        <div class="col-xs-2 text-center versusbadge">
+            <img src="https://static.comicvine.com/uploads/original/8/84424/5095081-6043063200-stick.png" class="versus"/>
+        </div>
+        <div class="col-xs-5 text-center">
+      <span id="js-computerPoints" class="badge">
+      0
+      </span>
+            Computer
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-5 text-center">
+      <span id="js-playerPick">
+        Player selection
+      </span>
+        </div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-5 text-center">
+      <span id="js-computerPick">
+        Computer selection
+      </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-5 text-center">
+      <span id="js-playerResult">
+        Player Score
+      </span>
+        </div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-5 text-center">
+      <span id="js-computerResult">
+        Computer Score
+      </span>
+        </div>
+    </div>
+</div>
+<footer class="text-center">
+    <div class="controls">
+    <p>Controls:</p>
+    <p>enter: start game</p>
+    <p>a: pick rock</p>
+    <p>s: pick paper</p>
+    <p>d: pick scissors</p>
+    <p>t: random winner</p>
+    </div>
+</footer>
+<script type="text/javascript" src="js/gra.js"></script>
+</body>
+</html>
