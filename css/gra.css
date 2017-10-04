@@ -71,7 +71,10 @@ background-color: rgba(63, 81, 181, 0.13);
 .controls {
     font-size:1rem;
     padding: 1.5em;
+    transform: translateX(40%);
 }
-.controls p:first-child {
+.controls ul li:first-child {
     font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
 }
